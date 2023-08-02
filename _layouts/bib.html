@@ -136,6 +136,9 @@
 
           <!-- Links/Buttons -->
           <div class="links">
+          {% if entry.award -%}
+            <div class="periodical"><font color="#FF8700"><b>{{entry.award}}</b></font></div>
+          {%- endif %}
           {%- if entry.abstract %}
             <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
           {%- endif %}
@@ -182,8 +185,14 @@
             <a href="{{ entry.slides | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">Slides</a>
             {%- endif %}
           {%- endif %}
+          {%- if entry.video %}
+            <a href="{{ entry.video }}" class="btn btn-sm z-depth-0" role="button">Video</a>
+          {%- endif %}
           {%- if entry.website %}
             <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button">Website</a>
+          {%- endif %}
+          {%- if entry.dataset %}
+            <a href="{{ entry.dataset }}" class="btn btn-sm z-depth-0" role="button">Dataset</a>
           {%- endif %}
           </div>
           {% if site.badges %}
