@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href="mailto:jspeth@nd.edu">Email</a>  |  <a href="assets/pdf/CV_Jeremy_Speth.pdf" title="CV">CV</a>  |  <a href="https://www.linkedin.com/in/jeremy-speth-54b2ab160/">LinkedIn</a>  |  <a href="https://scholar.google.com/citations?hl=en&user=NDPpjsUAAAAJ" title="Google Scholar">Google Scholar</a>
+subtitle: <a href="mailto:jspeth@nd.edu">Email</a>  |  <a href="assets/pdf/CV_Jeremy_Speth.pdf" title="CV">CV</a>  |  <a href="https://www.linkedin.com/in/jeremy-speth-54b2ab160/">LinkedIn</a>  |  <a href="https://scholar.google.com/citations?user=NDPpjsUAAAAJ&hl=en" title="Google Scholar">Google Scholar</a>
 [//]: # [CV](/_files/CV_Jeremy_Speth.pdf). [Google Scholar](https://scholar.google.com/citations?hl=en&user=NDPpjsUAAAAJ)
 
 profile:
